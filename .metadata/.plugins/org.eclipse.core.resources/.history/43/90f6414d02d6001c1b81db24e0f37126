@@ -1,0 +1,35 @@
+
+public class RegexTwo {
+
+	public static void main(String[] args) {
+		System.out.println("Welcome to Regex Validation Two!");
+		
+		
+		System.out.println("Please enter a name that has:");
+		System.out.println("- Starts with a capital letter");
+		System.out.println("- Has only alphabet characters");
+		System.out.println("- Not longer than 30 characters");
+
+	}
+
+	public static boolean validateName(String name) {
+
+		return true;
+	}
+	
+	public static boolean validateEmail(String email) {
+
+		return true;
+	}
+	
+	public static boolean validatePhone(String phone) {
+
+		return true;
+	}
+	
+	public static boolean validateDate(String date) {
+
+		return true;
+	}
+	
+}

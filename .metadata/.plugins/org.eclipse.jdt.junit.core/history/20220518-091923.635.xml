@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="RegexTwoTest" project="RegexExerciseTwo" tests="26" started="26" failures="0" errors="0" ignored="0">
+  <testsuite name="RegexTwoTest" time="0.04" uniqueid="[engine:junit-jupiter]/[class:RegexTwoTest]">
+    <testcase name="emailValidTest5Length" classname="RegexTwoTest" time="0.021" displayname="emailValidTest5Length()" uniqueid="[engine:junit-jupiter]/[class:RegexTwoTest]/[method:emailValidTest5Length()]"/>
+    <testcase name="nameValid30Test" classname="RegexTwoTest" time="0.0" displayname="nameValid30Test()" uniqueid="[engine:junit-jupiter]/[class:RegexTwoTest]/[method:nameValid30Test()]"/>
+    <testcase name="nameNotValidNumbersTest" classname="RegexTwoTest" time="0.001" displayname="nameNotValidNumbersTest()" uniqueid="[engine:junit-jupiter]/[class:RegexTwoTest]/[method:nameNotValidNumbersTest()]"/>
+    <testcase name="emailNotValidTestDot" classname="RegexTwoTest" time="0.001" displayname="emailNotValidTestDot()" uniqueid="[engine:junit-jupiter]/[class:RegexTwoTest]/[method:emailNotValidTestDot()]"/>
+    <testcase name="phoneNotValidTest1Plus" classname="RegexTwoTest" time="0.001" displayname="phoneNotValidTest1Plus()" uniqueid="[engine:junit-jupiter]/[class:RegexTwoTest]/[method:phoneNotValidTest1Plus()]"/>
+    <testcase name="phoneNotValidTestArea2" classname="RegexTwoTest" time="0.0" displayname="phoneNotValidTestArea2()" uniqueid="[engine:junit-jupiter]/[class:RegexTwoTest]/[method:phoneNotValidTestArea2()]"/>
+    <testcase name="phoneNotValidTestArea4" classname="RegexTwoTest" time="0.0" displayname="phoneNotValidTestArea4()" uniqueid="[engine:junit-jupiter]/[class:RegexTwoTest]/[method:phoneNotValidTestArea4()]"/>
+    <testcase name="emailNotValidTest3and10Length2" classname="RegexTwoTest" time="0.001" displayname="emailNotValidTest3and10Length2()" uniqueid="[engine:junit-jupiter]/[class:RegexTwoTest]/[method:emailNotValidTest3and10Length2()]"/>
+    <testcase name="emailNotValidTest31Length" classname="RegexTwoTest" time="0.001" displayname="emailNotValidTest31Length()" uniqueid="[engine:junit-jupiter]/[class:RegexTwoTest]/[method:emailNotValidTest31Length()]"/>
+    <testcase name="dateNotValidTestMonthGreaterThan12" classname="RegexTwoTest" time="0.001" displayname="dateNotValidTestMonthGreaterThan12()" uniqueid="[engine:junit-jupiter]/[class:RegexTwoTest]/[method:dateNotValidTestMonthGreaterThan12()]"/>
+    <testcase name="emailNotValidTestATsymbol" classname="RegexTwoTest" time="0.0" displayname="emailNotValidTestATsymbol()" uniqueid="[engine:junit-jupiter]/[class:RegexTwoTest]/[method:emailNotValidTestATsymbol()]"/>
+    <testcase name="phoneNotValidTestTwoAfterDash" classname="RegexTwoTest" time="0.0" displayname="phoneNotValidTestTwoAfterDash()" uniqueid="[engine:junit-jupiter]/[class:RegexTwoTest]/[method:phoneNotValidTestTwoAfterDash()]"/>
+    <testcase name="emailValidTest30LengthWithNumbers" classname="RegexTwoTest" time="0.001" displayname="emailValidTest30LengthWithNumbers()" uniqueid="[engine:junit-jupiter]/[class:RegexTwoTest]/[method:emailValidTest30LengthWithNumbers()]"/>
+    <testcase name="emailNotValidTestCom1" classname="RegexTwoTest" time="0.001" displayname="emailNotValidTestCom1()" uniqueid="[engine:junit-jupiter]/[class:RegexTwoTest]/[method:emailNotValidTestCom1()]"/>
+    <testcase name="emailNotValidTestCom4" classname="RegexTwoTest" time="0.0" displayname="emailNotValidTestCom4()" uniqueid="[engine:junit-jupiter]/[class:RegexTwoTest]/[method:emailNotValidTestCom4()]"/>
+    <testcase name="nameNotValidCapsTest" classname="RegexTwoTest" time="0.0" displayname="nameNotValidCapsTest()" uniqueid="[engine:junit-jupiter]/[class:RegexTwoTest]/[method:nameNotValidCapsTest()]"/>
+    <testcase name="nameNotValid31Test" classname="RegexTwoTest" time="0.0" displayname="nameNotValid31Test()" uniqueid="[engine:junit-jupiter]/[class:RegexTwoTest]/[method:nameNotValid31Test()]"/>
+    <testcase name="emailNotValidTest3and10Length11" classname="RegexTwoTest" time="0.001" displayname="emailNotValidTest3and10Length11()" uniqueid="[engine:junit-jupiter]/[class:RegexTwoTest]/[method:emailNotValidTest3and10Length11()]"/>
+    <testcase name="phoneNotValidTestSecondDash" classname="RegexTwoTest" time="0.0" displayname="phoneNotValidTestSecondDash()" uniqueid="[engine:junit-jupiter]/[class:RegexTwoTest]/[method:phoneNotValidTestSecondDash()]"/>
+    <testcase name="emailValidTest30Length" classname="RegexTwoTest" time="0.0" displayname="emailValidTest30Length()" uniqueid="[engine:junit-jupiter]/[class:RegexTwoTest]/[method:emailValidTest30Length()]"/>
+    <testcase name="phoneNotValidTestFourAfterDash" classname="RegexTwoTest" time="0.001" displayname="phoneNotValidTestFourAfterDash()" uniqueid="[engine:junit-jupiter]/[class:RegexTwoTest]/[method:phoneNotValidTestFourAfterDash()]"/>
+    <testcase name="dateNotValidTestMonthSingleDigit" classname="RegexTwoTest" time="0.0" displayname="dateNotValidTestMonthSingleDigit()" uniqueid="[engine:junit-jupiter]/[class:RegexTwoTest]/[method:dateNotValidTestMonthSingleDigit()]"/>
+    <testcase name="phoneNotValidTestLastIs3" classname="RegexTwoTest" time="0.001" displayname="phoneNotValidTestLastIs3()" uniqueid="[engine:junit-jupiter]/[class:RegexTwoTest]/[method:phoneNotValidTestLastIs3()]"/>
+    <testcase name="phoneNotValidTestLastIs5" classname="RegexTwoTest" time="0.0" displayname="phoneNotValidTestLastIs5()" uniqueid="[engine:junit-jupiter]/[class:RegexTwoTest]/[method:phoneNotValidTestLastIs5()]"/>
+    <testcase name="phoneNotValidTestFirstDash" classname="RegexTwoTest" time="0.0" displayname="phoneNotValidTestFirstDash()" uniqueid="[engine:junit-jupiter]/[class:RegexTwoTest]/[method:phoneNotValidTestFirstDash()]"/>
+    <testcase name="emailNotValidTest4Length" classname="RegexTwoTest" time="0.0" displayname="emailNotValidTest4Length()" uniqueid="[engine:junit-jupiter]/[class:RegexTwoTest]/[method:emailNotValidTest4Length()]"/>
+  </testsuite>
+</testrun>

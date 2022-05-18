@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="RegexTwoTest" project="RegexExerciseTwo" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="RegexTwoTest" time="0.0" uniqueid="[engine:junit-jupiter]/[class:RegexTwoTest]">
+    <testcase name="nameValid30Test" classname="RegexTwoTest" time="0.0" displayname="nameValid30Test()" uniqueid="[engine:junit-jupiter]/[class:RegexTwoTest]/[method:nameValid30Test()]"/>
+    <testcase name="nameNotValid31Test" classname="RegexTwoTest" time="0.0" displayname="nameNotValid31Test()" uniqueid="[engine:junit-jupiter]/[class:RegexTwoTest]/[method:nameNotValid31Test()]"/>
+  </testsuite>
+</testrun>

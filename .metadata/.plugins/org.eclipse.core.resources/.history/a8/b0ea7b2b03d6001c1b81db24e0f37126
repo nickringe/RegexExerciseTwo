@@ -1,0 +1,50 @@
+import java.util.Scanner;
+
+public class RegexTwo {
+
+	public static void main(String[] args) {
+
+		boolean nameValid = false;
+		System.out.println("Welcome to Regex Validation Two!");
+		Scanner scnr = new Scanner(System.in);
+
+		while (nameValid == false) {
+			System.out.println("Please enter a name that has:");
+			System.out.println("- Starts with a capital letter");
+			System.out.println("- Has only alphabet characters");
+			System.out.println("- Not longer than 30 characters");
+			String userName = scnr.nextLine();
+				if(validateName(userName)) {
+					nameValid = true;
+					break;
+				} else {
+					nameValid = false;
+				}
+		}
+	}
+
+	public static boolean validateName(String name) {
+		String nameRegex = "[A-Z][a-z]{1,30}$";
+		if (name == nameRegex) {
+			return true;
+		}
+
+		return false;
+	}
+
+	public static boolean validateEmail(String email) {
+
+		return true;
+	}
+
+	public static boolean validatePhone(String phone) {
+
+		return true;
+	}
+
+	public static boolean validateDate(String date) {
+
+		return true;
+	}
+
+}

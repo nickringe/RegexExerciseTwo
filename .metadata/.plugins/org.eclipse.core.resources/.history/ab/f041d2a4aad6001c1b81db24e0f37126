@@ -1,0 +1,81 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class RegexTwoTest {
+
+	@Test
+	void nameValid30Test() {
+		String actual = "ABCDEFGHIJKLMNOPQRSTUVWYZabcde";
+		assertTrue(RegexTwo.validateName(actual));
+	}
+	
+	@Test
+	void nameNotValid31Test() {
+		String actual = "ABCDEFGHIJKLMNOPQRSTUVWYZabcdef";
+		assertFalse(RegexTwo.validateName(actual));
+	}
+	
+	@Test
+	void nameNotValidCapsTest() {
+		String actual = "aBCDEFGHIJKLMNOPQRSTUVWYZabcde";
+		assertFalse(RegexTwo.validateName(actual));
+	}
+	
+	@Test
+	void nameNotValidNumbersTest() {
+		String actual = "ABCDEFGHIJKLMNOPQRSTUVWYZabcd9";
+		assertFalse(RegexTwo.validateName(actual));
+	}
+	
+	@Test
+	void emailNotValidTest4Length() {
+		String actual = "abcd@gmail.com";
+		assertFalse(RegexTwo.validateEmail(actual));
+	}
+	
+	@Test
+	void emailValidTest5Length() {
+		String actual = "abcde@gmail.com";
+		assertTrue(RegexTwo.validateEmail(actual));
+	}
+	
+	@Test
+	void emailNotValidTest31Length() {
+		String actual = "ABCDEFGHIJKLMNOPQRSTUVWYZabcdef@gmail.com";
+		assertFalse(RegexTwo.validateEmail(actual));
+	}
+	
+	@Test
+	void emailValidTest30Length() {
+		String actual = "ABCDEFGHIJKLMNOPQRSTUVWYZabcde@gmail.com";
+		assertTrue(RegexTwo.validateEmail(actual));
+	}
+	
+	@Test
+	void emailValidTest30LengthWithNumbers() {
+		String actual = "ABCDE1234JKLMNOPQRSTUVWYZabcde@gmail.com";
+		assertTrue(RegexTwo.validateEmail(actual));
+	}
+	
+	@Test
+	void emailNotValidTestATsymbol() {
+		String actual = "ABCDE1234JKLMNOPQRSTUVWYZabcde$gmail.com";
+		assertFalse(RegexTwo.validateEmail(actual));
+	}
+	
+	@Test
+	void emailNotValidTest3and10Length2() {
+		String actual = "ABCDE1234JKLMNOPQRSTUVWYZabcde@gm.com";
+		assertFalse(RegexTwo.validateEmail(actual));
+	}
+	
+	@Test
+	void emailNotValidTest3and10Length11() {
+		String actual = "ABCDE1234JKLMNOPQRSTUVWYZabcde@gmailgmail1.com";
+		assertFalse(RegexTwo.validateEmail(actual));
+	}
+	
+	
+
+}

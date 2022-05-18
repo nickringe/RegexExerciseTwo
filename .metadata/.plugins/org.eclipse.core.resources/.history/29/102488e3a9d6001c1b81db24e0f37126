@@ -1,0 +1,51 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class RegexTwoTest {
+
+	@Test
+	void nameValid30Test() {
+		String actual = "ABCDEFGHIJKLMNOPQRSTUVWYZabcde";
+		assertTrue(RegexTwo.validateName(actual));
+	}
+	
+	@Test
+	void nameNotValid31Test() {
+		String actual = "ABCDEFGHIJKLMNOPQRSTUVWYZabcdef";
+		assertFalse(RegexTwo.validateName(actual));
+	}
+	
+	@Test
+	void nameNotValidCapsTest() {
+		String actual = "aBCDEFGHIJKLMNOPQRSTUVWYZabcde";
+		assertFalse(RegexTwo.validateName(actual));
+	}
+	
+	@Test
+	void nameNotValidNumbersTest() {
+		String actual = "ABCDEFGHIJKLMNOPQRSTUVWYZabcd9";
+		assertFalse(RegexTwo.validateName(actual));
+	}
+	
+	@Test
+	void emailValidTest4Length() {
+		String actual = "abcde@gmail.com";
+		assertTrue(RegexTwo.validateEmail(actual));
+	}
+	
+	@Test
+	void emailNotValidTest31Length() {
+		String actual = "ABCDEFGHIJKLMNOPQRSTUVWYZabcdef@gmail.com";
+		assertFalse(RegexTwo.validateEmail(actual));
+	}
+	
+	@Test
+	void emailValidTest30Length() {
+		String actual = "ABCDEFGHIJKLMNOPQRSTUVWYZabcde@gmail.com";
+		assertTrue(RegexTwo.validateEmail(actual));
+	}
+	
+	
+
+}
